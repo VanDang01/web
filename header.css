@@ -200,7 +200,7 @@ h4 {
   }
 
   .header__menu-list {
-    margin: 20px 0;
+    margin: 20px 80px;
     justify-content: space-between;
   }
 
@@ -222,6 +222,15 @@ h4 {
   .logo {
     margin-top: 20px;
     margin-left: 0;
+    font-size: 2rem;
+    max-width: 100%;
+    border: #f2f1f6 solid 2px;
+    width: 80px;
+    height: 80px;
+    background-color: #b69f85;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
   }
 
   .header__menu-item__pagination {

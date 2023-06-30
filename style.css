@@ -49,6 +49,31 @@ body {
   position: relative;
 }
 
+
+a:hover {
+  color: burlywood;
+} 
+.header__menu-item a:hover {
+  font-size: 80%;
+}
+.pagination-item a:hover {
+  font-size: 150%;
+}
+.footer__list-item a:hover {
+  font-size: 70%;
+}
+
+input:hover{
+  box-shadow: 2px 5px 5px seashell;
+}
+button:hover{
+  background-color: #fff;
+  border: none;
+}
+button span:hover {
+  color: black;
+}
+
 @media (max-width: 767px) {
   img {
     margin-top: 20px;
@@ -88,4 +113,20 @@ body {
   .container {
     padding: 0 10px;
   }
+}
+
+@media (max-width : 768px) {
+  .short__menu,
+  .feature__item-dow, 
+  .featureTow__item-font, 
+  .featureTow__item-dow, 
+  .horizontal, 
+  .gird__horizontal, 
+  .gird__content-shared,
+  .gird__pepper-references img, 
+  .press, 
+  .highlight, 
+  .gird__content-logo-line {
+      display: none;
+    }
 }

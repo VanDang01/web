@@ -102,30 +102,53 @@ button {
 }
 
 .container__connect {
-  width: 45%;
-  margin-left: 80px;
+  width: 90%;
   display: flex;
+  justify-content: center;
+  align-items: center;
   justify-content: space-between;
+  padding: 4rem 0;
+}
+
+.footer__network {
+  /* width: 70%; */
+  margin: -15px 0 0 11px;
 }
 
 .footer__list {
-  margin: -2px 98px 0 0px;
+  margin: -24px 50% 0 0;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  flex-wrap: nowrap;
-  flex-direction: row;
   font-weight: 600;
-  width: 300px;
+  justify-content: space-between;
+  width: 425px;
+}
+
+.footer__list-item {
+  display: flex;
+  margin-left: auto;
+  font-size: 2rem;
+  margin-top: 6px;
+}
+.footer__list-item hr {
+  margin: 17px 4px 0 0px;
+  height: 1px;
 }
 
 .footer__list-link {
   color: black;
   font-size: 1.2rem;
-  font-weight: 600;
-  transition: color 0.25s linear, border 0.25s linear;
-  margin: 4px 0 0 5px;
+  font-weight: 650;
+  padding-top: 6px;
 }
+
+.footer__list-item span {
+  font-size: 1.5rem;
+  margin-left: 5px;
+  padding-bottom: 4px;
+  color: #ffc87a;
+}
+
 
 .footer__list-item-link {
   color: #888;
